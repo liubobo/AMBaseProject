@@ -16,7 +16,28 @@
 		4776E766219D4D8B00628E95 /* AMBaseTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4776E765219D4D8B00628E95 /* AMBaseTests.m */; };
 		4776E771219D4D8B00628E95 /* AMBaseUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4776E770219D4D8B00628E95 /* AMBaseUITests.m */; };
 		4776E783219D4FCF00628E95 /* AMModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4776E782219D4FCF00628E95 /* AMModel.m */; };
-		4776E787219D529100628E95 /* AMTestModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4776E786219D529100628E95 /* AMTestModel.m */; };
+		4776E7C2219D593900628E95 /* AMView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4776E7BC219D593800628E95 /* AMView.m */; };
+		4776E7C3219D593900628E95 /* AMViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4776E7BF219D593800628E95 /* AMViewController.m */; };
+		4776E7D4219D5B7000628E95 /* AViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4776E7D3219D5B7000628E95 /* AViewController.m */; };
+		4776E801219D5CCA00628E95 /* UILabel+KMLabelMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 4776E7D9219D5CC500628E95 /* UILabel+KMLabelMaker.m */; };
+		4776E802219D5CCA00628E95 /* UITextField+KMTextFieldMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 4776E7DB219D5CC500628E95 /* UITextField+KMTextFieldMaker.m */; };
+		4776E803219D5CCA00628E95 /* UIView+KMUIViewMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 4776E7E1219D5CC500628E95 /* UIView+KMUIViewMaker.m */; };
+		4776E804219D5CCA00628E95 /* UITextView+KMTextViewMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 4776E7E3219D5CC500628E95 /* UITextView+KMTextViewMaker.m */; };
+		4776E805219D5CCA00628E95 /* UIButton+KMButtonMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 4776E7E5219D5CC500628E95 /* UIButton+KMButtonMaker.m */; };
+		4776E806219D5CCA00628E95 /* UITableView+KMTableViewMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 4776E7E6219D5CC500628E95 /* UITableView+KMTableViewMaker.m */; };
+		4776E807219D5CCA00628E95 /* UICollectionView+KMCollectionViewMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 4776E7E7219D5CC500628E95 /* UICollectionView+KMCollectionViewMaker.m */; };
+		4776E808219D5CCA00628E95 /* UIImageView+KMImageViewMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 4776E7E8219D5CC500628E95 /* UIImageView+KMImageViewMaker.m */; };
+		4776E809219D5CCA00628E95 /* UIScrollView+KMScrollViewMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 4776E7E9219D5CC500628E95 /* UIScrollView+KMScrollViewMaker.m */; };
+		4776E80A219D5CCA00628E95 /* KMTextViewMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 4776E7EF219D5CC500628E95 /* KMTextViewMaker.m */; };
+		4776E80B219D5CCA00628E95 /* KMUIControlMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 4776E7F1219D5CC500628E95 /* KMUIControlMaker.m */; };
+		4776E80C219D5CCA00628E95 /* KMUIViewMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 4776E7F2219D5CC500628E95 /* KMUIViewMaker.m */; };
+		4776E80D219D5CCA00628E95 /* KMScrollViewMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 4776E7F4219D5CC500628E95 /* KMScrollViewMaker.m */; };
+		4776E80E219D5CCA00628E95 /* KMButtonMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 4776E7F5219D5CC500628E95 /* KMButtonMaker.m */; };
+		4776E80F219D5CCA00628E95 /* KMCollectionViewMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 4776E7F7219D5CC500628E95 /* KMCollectionViewMaker.m */; };
+		4776E810219D5CCA00628E95 /* KMTextFieldMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 4776E7F8219D5CC500628E95 /* KMTextFieldMaker.m */; };
+		4776E811219D5CCA00628E95 /* KMLabelMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 4776E7F9219D5CC500628E95 /* KMLabelMaker.m */; };
+		4776E812219D5CCA00628E95 /* KMTableViewMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 4776E7FB219D5CC500628E95 /* KMTableViewMaker.m */; };
+		4776E813219D5CCA00628E95 /* KMImageViewMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 4776E7FC219D5CC500628E95 /* KMImageViewMaker.m */; };
 		5A9A589E8F1768F705066E5C /* Pods_AMBase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDE1D989600AC55332BF2C0A /* Pods_AMBase.framework */; };
 /* End PBXBuildFile section */
 
@@ -58,8 +79,51 @@
 		4776E772219D4D8B00628E95 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4776E781219D4FCF00628E95 /* AMModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMModel.h; sourceTree = "<group>"; };
 		4776E782219D4FCF00628E95 /* AMModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMModel.m; sourceTree = "<group>"; };
-		4776E785219D529100628E95 /* AMTestModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AMTestModel.h; sourceTree = "<group>"; };
-		4776E786219D529100628E95 /* AMTestModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AMTestModel.m; sourceTree = "<group>"; };
+		4776E7BC219D593800628E95 /* AMView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMView.m; sourceTree = "<group>"; };
+		4776E7BD219D593800628E95 /* AMView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMView.h; sourceTree = "<group>"; };
+		4776E7BF219D593800628E95 /* AMViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMViewController.m; sourceTree = "<group>"; };
+		4776E7C0219D593800628E95 /* AMViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMViewController.h; sourceTree = "<group>"; };
+		4776E7D2219D5B7000628E95 /* AViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AViewController.h; sourceTree = "<group>"; };
+		4776E7D3219D5B7000628E95 /* AViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AViewController.m; sourceTree = "<group>"; };
+		4776E7D8219D5CC500628E95 /* UITextView+KMTextViewMaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextView+KMTextViewMaker.h"; sourceTree = "<group>"; };
+		4776E7D9219D5CC500628E95 /* UILabel+KMLabelMaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+KMLabelMaker.m"; sourceTree = "<group>"; };
+		4776E7DA219D5CC500628E95 /* UIView+KMUIViewMaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+KMUIViewMaker.h"; sourceTree = "<group>"; };
+		4776E7DB219D5CC500628E95 /* UITextField+KMTextFieldMaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+KMTextFieldMaker.m"; sourceTree = "<group>"; };
+		4776E7DC219D5CC500628E95 /* UITableView+KMTableViewMaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+KMTableViewMaker.h"; sourceTree = "<group>"; };
+		4776E7DD219D5CC500628E95 /* UIButton+KMButtonMaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+KMButtonMaker.h"; sourceTree = "<group>"; };
+		4776E7DE219D5CC500628E95 /* UIScrollView+KMScrollViewMaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+KMScrollViewMaker.h"; sourceTree = "<group>"; };
+		4776E7DF219D5CC500628E95 /* UIImageView+KMImageViewMaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+KMImageViewMaker.h"; sourceTree = "<group>"; };
+		4776E7E0219D5CC500628E95 /* UICollectionView+KMCollectionViewMaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UICollectionView+KMCollectionViewMaker.h"; sourceTree = "<group>"; };
+		4776E7E1219D5CC500628E95 /* UIView+KMUIViewMaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+KMUIViewMaker.m"; sourceTree = "<group>"; };
+		4776E7E2219D5CC500628E95 /* UILabel+KMLabelMaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+KMLabelMaker.h"; sourceTree = "<group>"; };
+		4776E7E3219D5CC500628E95 /* UITextView+KMTextViewMaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextView+KMTextViewMaker.m"; sourceTree = "<group>"; };
+		4776E7E4219D5CC500628E95 /* UITextField+KMTextFieldMaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+KMTextFieldMaker.h"; sourceTree = "<group>"; };
+		4776E7E5219D5CC500628E95 /* UIButton+KMButtonMaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+KMButtonMaker.m"; sourceTree = "<group>"; };
+		4776E7E6219D5CC500628E95 /* UITableView+KMTableViewMaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+KMTableViewMaker.m"; sourceTree = "<group>"; };
+		4776E7E7219D5CC500628E95 /* UICollectionView+KMCollectionViewMaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UICollectionView+KMCollectionViewMaker.m"; sourceTree = "<group>"; };
+		4776E7E8219D5CC500628E95 /* UIImageView+KMImageViewMaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+KMImageViewMaker.m"; sourceTree = "<group>"; };
+		4776E7E9219D5CC500628E95 /* UIScrollView+KMScrollViewMaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+KMScrollViewMaker.m"; sourceTree = "<group>"; };
+		4776E7EA219D5CC500628E95 /* KMUIMakerHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KMUIMakerHeader.h; sourceTree = "<group>"; };
+		4776E7EC219D5CC500628E95 /* KMLabelMaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KMLabelMaker.h; sourceTree = "<group>"; };
+		4776E7ED219D5CC500628E95 /* KMTextFieldMaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KMTextFieldMaker.h; sourceTree = "<group>"; };
+		4776E7EE219D5CC500628E95 /* KMCollectionViewMaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KMCollectionViewMaker.h; sourceTree = "<group>"; };
+		4776E7EF219D5CC500628E95 /* KMTextViewMaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KMTextViewMaker.m; sourceTree = "<group>"; };
+		4776E7F0219D5CC500628E95 /* KMTableViewMaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KMTableViewMaker.h; sourceTree = "<group>"; };
+		4776E7F1219D5CC500628E95 /* KMUIControlMaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KMUIControlMaker.m; sourceTree = "<group>"; };
+		4776E7F2219D5CC500628E95 /* KMUIViewMaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KMUIViewMaker.m; sourceTree = "<group>"; };
+		4776E7F3219D5CC500628E95 /* KMImageViewMaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KMImageViewMaker.h; sourceTree = "<group>"; };
+		4776E7F4219D5CC500628E95 /* KMScrollViewMaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KMScrollViewMaker.m; sourceTree = "<group>"; };
+		4776E7F5219D5CC500628E95 /* KMButtonMaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KMButtonMaker.m; sourceTree = "<group>"; };
+		4776E7F6219D5CC500628E95 /* KMTextViewMaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KMTextViewMaker.h; sourceTree = "<group>"; };
+		4776E7F7219D5CC500628E95 /* KMCollectionViewMaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KMCollectionViewMaker.m; sourceTree = "<group>"; };
+		4776E7F8219D5CC500628E95 /* KMTextFieldMaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KMTextFieldMaker.m; sourceTree = "<group>"; };
+		4776E7F9219D5CC500628E95 /* KMLabelMaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KMLabelMaker.m; sourceTree = "<group>"; };
+		4776E7FA219D5CC500628E95 /* KMUIControlMaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KMUIControlMaker.h; sourceTree = "<group>"; };
+		4776E7FB219D5CC500628E95 /* KMTableViewMaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KMTableViewMaker.m; sourceTree = "<group>"; };
+		4776E7FC219D5CC500628E95 /* KMImageViewMaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KMImageViewMaker.m; sourceTree = "<group>"; };
+		4776E7FD219D5CC500628E95 /* KMUIViewMaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KMUIViewMaker.h; sourceTree = "<group>"; };
+		4776E7FE219D5CC500628E95 /* KMButtonMaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KMButtonMaker.h; sourceTree = "<group>"; };
+		4776E7FF219D5CC500628E95 /* KMScrollViewMaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KMScrollViewMaker.h; sourceTree = "<group>"; };
 		FDE1D989600AC55332BF2C0A /* Pods_AMBase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AMBase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -123,7 +187,7 @@
 		4776E74B219D4D8B00628E95 /* AMBase */ = {
 			isa = PBXGroup;
 			children = (
-				4776E780219D4F5A00628E95 /* NetWork */,
+				4776E7B7219D593800628E95 /* Base */,
 				4776E77F219D4F4A00628E95 /* Modules */,
 				4776E77E219D4F3500628E95 /* AppDelegate */,
 				4776E752219D4D8B00628E95 /* Main.storyboard */,
@@ -156,6 +220,7 @@
 		4776E77E219D4F3500628E95 /* AppDelegate */ = {
 			isa = PBXGroup;
 			children = (
+				4776E7D5219D5CC500628E95 /* UIMakers */,
 				4776E74C219D4D8B00628E95 /* AppDelegate.h */,
 				4776E74D219D4D8B00628E95 /* AppDelegate.m */,
 				4776E74F219D4D8B00628E95 /* ViewController.h */,
@@ -167,7 +232,8 @@
 		4776E77F219D4F4A00628E95 /* Modules */ = {
 			isa = PBXGroup;
 			children = (
-				4776E784219D526300628E95 /* home */,
+				4776E7D2219D5B7000628E95 /* AViewController.h */,
+				4776E7D3219D5B7000628E95 /* AViewController.m */,
 			);
 			path = Modules;
 			sourceTree = "<group>";
@@ -181,13 +247,102 @@
 			path = NetWork;
 			sourceTree = "<group>";
 		};
-		4776E784219D526300628E95 /* home */ = {
+		4776E7B7219D593800628E95 /* Base */ = {
 			isa = PBXGroup;
 			children = (
-				4776E785219D529100628E95 /* AMTestModel.h */,
-				4776E786219D529100628E95 /* AMTestModel.m */,
+				4776E7C4219D59EF00628E95 /* Model */,
+				4776E7BB219D593800628E95 /* View */,
+				4776E7BE219D593800628E95 /* ViewController */,
 			);
-			path = home;
+			path = Base;
+			sourceTree = "<group>";
+		};
+		4776E7BB219D593800628E95 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4776E7BD219D593800628E95 /* AMView.h */,
+				4776E7BC219D593800628E95 /* AMView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		4776E7BE219D593800628E95 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				4776E7C0219D593800628E95 /* AMViewController.h */,
+				4776E7BF219D593800628E95 /* AMViewController.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		4776E7C4219D59EF00628E95 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4776E780219D4F5A00628E95 /* NetWork */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4776E7D5219D5CC500628E95 /* UIMakers */ = {
+			isa = PBXGroup;
+			children = (
+				4776E7D7219D5CC500628E95 /* KMUIMakerCategory */,
+				4776E7EA219D5CC500628E95 /* KMUIMakerHeader.h */,
+				4776E7EB219D5CC500628E95 /* KMUIMaker */,
+			);
+			path = UIMakers;
+			sourceTree = "<group>";
+		};
+		4776E7D7219D5CC500628E95 /* KMUIMakerCategory */ = {
+			isa = PBXGroup;
+			children = (
+				4776E7D8219D5CC500628E95 /* UITextView+KMTextViewMaker.h */,
+				4776E7D9219D5CC500628E95 /* UILabel+KMLabelMaker.m */,
+				4776E7DA219D5CC500628E95 /* UIView+KMUIViewMaker.h */,
+				4776E7DB219D5CC500628E95 /* UITextField+KMTextFieldMaker.m */,
+				4776E7DC219D5CC500628E95 /* UITableView+KMTableViewMaker.h */,
+				4776E7DD219D5CC500628E95 /* UIButton+KMButtonMaker.h */,
+				4776E7DE219D5CC500628E95 /* UIScrollView+KMScrollViewMaker.h */,
+				4776E7DF219D5CC500628E95 /* UIImageView+KMImageViewMaker.h */,
+				4776E7E0219D5CC500628E95 /* UICollectionView+KMCollectionViewMaker.h */,
+				4776E7E1219D5CC500628E95 /* UIView+KMUIViewMaker.m */,
+				4776E7E2219D5CC500628E95 /* UILabel+KMLabelMaker.h */,
+				4776E7E3219D5CC500628E95 /* UITextView+KMTextViewMaker.m */,
+				4776E7E4219D5CC500628E95 /* UITextField+KMTextFieldMaker.h */,
+				4776E7E5219D5CC500628E95 /* UIButton+KMButtonMaker.m */,
+				4776E7E6219D5CC500628E95 /* UITableView+KMTableViewMaker.m */,
+				4776E7E7219D5CC500628E95 /* UICollectionView+KMCollectionViewMaker.m */,
+				4776E7E8219D5CC500628E95 /* UIImageView+KMImageViewMaker.m */,
+				4776E7E9219D5CC500628E95 /* UIScrollView+KMScrollViewMaker.m */,
+			);
+			path = KMUIMakerCategory;
+			sourceTree = "<group>";
+		};
+		4776E7EB219D5CC500628E95 /* KMUIMaker */ = {
+			isa = PBXGroup;
+			children = (
+				4776E7EC219D5CC500628E95 /* KMLabelMaker.h */,
+				4776E7ED219D5CC500628E95 /* KMTextFieldMaker.h */,
+				4776E7EE219D5CC500628E95 /* KMCollectionViewMaker.h */,
+				4776E7EF219D5CC500628E95 /* KMTextViewMaker.m */,
+				4776E7F0219D5CC500628E95 /* KMTableViewMaker.h */,
+				4776E7F1219D5CC500628E95 /* KMUIControlMaker.m */,
+				4776E7F2219D5CC500628E95 /* KMUIViewMaker.m */,
+				4776E7F3219D5CC500628E95 /* KMImageViewMaker.h */,
+				4776E7F4219D5CC500628E95 /* KMScrollViewMaker.m */,
+				4776E7F5219D5CC500628E95 /* KMButtonMaker.m */,
+				4776E7F6219D5CC500628E95 /* KMTextViewMaker.h */,
+				4776E7F7219D5CC500628E95 /* KMCollectionViewMaker.m */,
+				4776E7F8219D5CC500628E95 /* KMTextFieldMaker.m */,
+				4776E7F9219D5CC500628E95 /* KMLabelMaker.m */,
+				4776E7FA219D5CC500628E95 /* KMUIControlMaker.h */,
+				4776E7FB219D5CC500628E95 /* KMTableViewMaker.m */,
+				4776E7FC219D5CC500628E95 /* KMImageViewMaker.m */,
+				4776E7FD219D5CC500628E95 /* KMUIViewMaker.h */,
+				4776E7FE219D5CC500628E95 /* KMButtonMaker.h */,
+				4776E7FF219D5CC500628E95 /* KMScrollViewMaker.h */,
+			);
+			path = KMUIMaker;
 			sourceTree = "<group>";
 		};
 		E469CB4D28956F33265BBC93 /* Frameworks */ = {
@@ -379,10 +534,31 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4776E787219D529100628E95 /* AMTestModel.m in Sources */,
+				4776E809219D5CCA00628E95 /* UIScrollView+KMScrollViewMaker.m in Sources */,
+				4776E811219D5CCA00628E95 /* KMLabelMaker.m in Sources */,
+				4776E805219D5CCA00628E95 /* UIButton+KMButtonMaker.m in Sources */,
 				4776E751219D4D8B00628E95 /* ViewController.m in Sources */,
+				4776E802219D5CCA00628E95 /* UITextField+KMTextFieldMaker.m in Sources */,
+				4776E80A219D5CCA00628E95 /* KMTextViewMaker.m in Sources */,
+				4776E80E219D5CCA00628E95 /* KMButtonMaker.m in Sources */,
+				4776E80C219D5CCA00628E95 /* KMUIViewMaker.m in Sources */,
+				4776E810219D5CCA00628E95 /* KMTextFieldMaker.m in Sources */,
+				4776E806219D5CCA00628E95 /* UITableView+KMTableViewMaker.m in Sources */,
+				4776E803219D5CCA00628E95 /* UIView+KMUIViewMaker.m in Sources */,
+				4776E808219D5CCA00628E95 /* UIImageView+KMImageViewMaker.m in Sources */,
+				4776E804219D5CCA00628E95 /* UITextView+KMTextViewMaker.m in Sources */,
+				4776E7D4219D5B7000628E95 /* AViewController.m in Sources */,
+				4776E801219D5CCA00628E95 /* UILabel+KMLabelMaker.m in Sources */,
+				4776E813219D5CCA00628E95 /* KMImageViewMaker.m in Sources */,
+				4776E80D219D5CCA00628E95 /* KMScrollViewMaker.m in Sources */,
+				4776E807219D5CCA00628E95 /* UICollectionView+KMCollectionViewMaker.m in Sources */,
+				4776E80F219D5CCA00628E95 /* KMCollectionViewMaker.m in Sources */,
 				4776E783219D4FCF00628E95 /* AMModel.m in Sources */,
 				4776E75C219D4D8B00628E95 /* main.m in Sources */,
+				4776E80B219D5CCA00628E95 /* KMUIControlMaker.m in Sources */,
+				4776E812219D5CCA00628E95 /* KMTableViewMaker.m in Sources */,
+				4776E7C3219D593900628E95 /* AMViewController.m in Sources */,
+				4776E7C2219D593900628E95 /* AMView.m in Sources */,
 				4776E74E219D4D8B00628E95 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
